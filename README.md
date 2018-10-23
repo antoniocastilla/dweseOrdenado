@@ -1,5 +1,6 @@
 # dweseOrdenado
 Creado de nuevo para tener una estructura de directorios más ordenada.
+<pre
  __   __  __   __  ___      _______  ___   __   __  _______  ___      _______  _______  ______  
 |  |_|  ||  | |  ||   |    |       ||   | |  | |  ||       ||   |    |       ||   _   ||      | 
 |       ||  | |  ||   |    |_     _||   | |  | |  ||    _  ||   |    |   _   ||  |_|  ||  _    |
@@ -7,3 +8,5 @@ Creado de nuevo para tener una estructura de directorios más ordenada.
 |       ||       ||   |___   |   |  |   | |       ||    ___||   |___ |  |_|  ||       || |_|   |
 | ||_|| ||       ||       |  |   |  |   | |       ||   |    |       ||       ||   _   ||       |
 |_|   |_||_______||_______|  |___|  |___| |_______||___|    |_______||_______||__| |__||______|
+
+</pre>
