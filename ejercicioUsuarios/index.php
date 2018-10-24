@@ -1,6 +1,6 @@
 <?php
 
-require '../classes/Autoload.php';
+require 'classes/Autoload.php';
 
 $op = Reader::get('op');
 $mensaje = '';
