@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html, body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3EFEC;
+    color: #2D2D2D;
+}
+#wrapper{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-size: 5vw;
+    font-weight: 900;
+}
+
+ul{
+    list-style-type: katakana-iroha;
+    text-align: left;
+}
+
+a{
+    text-decoration: underline;
+    color: inherit;
+    font-size: 1.5em;
+}
+
+img{
+    width: 15%;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}
