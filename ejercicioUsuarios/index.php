@@ -1,6 +1,6 @@
 <?php
 
-require 'classes/Autoload.php';
+require '../classes/Autoload.php';
 
 $op = Reader::get('op');
 $mensaje = '';
@@ -33,17 +33,19 @@ while ($archivo = readdir($directorio)){
     <div id="wrapper">
         <?= $mensaje ?>
         <h1>USER LIST</h1>
+        <p>Si clickas en el nombre de usuario, verás la imagen a tamaño completo.</p>
         <hr>
         <ul>
             <?php
                 foreach($nombres as $index=>$nombre){
             ?>
             <li><a href="Read.php?nombre=<?= $fotos[$index] ?>" target="_onblank"><?= $nombre ?></a></li>
+            <img class="iconProfile" src="Read.php?nombre=<?= $fotos[$index] ?>"></img>
              <?php  
             }
             ?>
         </ul>
-        <a href="agrega.html"><img src="add.png"></img></a>
+        <a href="agrega.html"><img id="addIcon" src="add.png"></img></a>
     </div>
 </body>
 </html>
