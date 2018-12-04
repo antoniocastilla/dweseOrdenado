@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>{{ title }}</title><!-- DWES Potato -->
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous" defer></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
+        {% block head %}{% endblock %}
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="/proyectousuarios/">Home</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    {% block nav_items %}{% endblock %}
+                </ul>
+                {% block nav_end %}
+                     {% if logged == false %}
+                        <p>
+                            <a class="btn btn-outline-primary" href="#" data-toggle="modal" data-target="#modallogin" role="button">Login</a>
+                            <a class="btn btn-outline-primary" href="usuario/insert.php" role="button">Sing Up</a>
+                        </p>
+                    {% else %}
+                        <p>
+                            <a class="btn btn-outline-primary" href="/proyectousuarios/usuario/dologout.php" role="button">Log Out</a>
+                        </p>
+                    {% endif %}
+                
+                {% endblock %}
+            </div>
+        </nav>
+        <main role="main">
+            <div class="jumbotron">
+                <div class="container">
+                    {% block jumbotron %}<h4 class="display-4">Titulo Generico</h4>{% endblock %}
+                    {{ alert|raw }} 
+                </div>
+            </div>
+            <div class="container">
+                <!-- contenido -->
+                {% block contenido_principal %}{% endblock %}
+            </div>
+        </main>
+        <hr>
+        <footer class="container">
+            <p>&copy; Antonio Castilla 2018</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+{% extends 'bootstrap.twig' %}
+
+{% block head %}
+<script src="../js/script.js" defer></script>
+{% endblock %}
+
+{% block nav_items %}
+<li class="nav-item">
+    <a class="nav-link disabled" href="index.php">Usuario</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="edit.php">Configuracion</a>
+</li>
+{% endblock %}
+
+{% block nav_end %}
+<p>
+    <a class="btn btn-outline-primary" href="dologout.php" role="button">Logout</a>
+</p>
+{% endblock %}
+
+{% block jumbotron %}
+    <h4 class="display-4">{{ title }}</h4>
+    {% if logged == true %} 
+            <a class="btn btn-outline-primary" href="edit.php?id={{ usuario.id }}" role="button" class="editar">Editar mi cuenta</a>
+    {% endif %}
+{% endblock %}
+
+{% block contenido_principal %}
+<table id="tablaUsuario" class="table">
+    <thead>
+        <tr>
+            <th scope="col">Correo</th>
+            <th scope="col">Alias</th>
+            <th scope="col">Nombre</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in usuarios %}
+        <tr>
+            <td scope="row">{{ item.correo }}</td>
+            <td scope="row">{{ item.alias }}</td>
+            <td scope="row">{{ item.nombre }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

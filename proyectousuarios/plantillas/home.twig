@@ -1,0 +1,95 @@
+{% extends 'bootstrap.twig' %}
+
+{% block nav_items %}
+<li class="nav-item">
+    <a class="nav-link" href="./usuario/index.php">Usuarios</a>
+</li>
+<!--<li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+</li>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+    <div class="dropdown-menu" aria-labelledby="dropdown01">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+</li>-->
+{% endblock %}
+
+{% block nav_end %}
+    {% if logged == false %}
+        <p>
+            <a class="btn btn-outline-primary" href="#" data-toggle="modal" data-target="#modallogin" role="button">Login</a>
+            <a class="btn btn-outline-primary" href="usuario/insert.php" role="button">Sing Up</a>
+        </p>
+    {% else %}
+        <p>
+            <a class="btn btn-outline-primary" href="usuario/dologout.php" role="button">Log Out</a>
+        </p>
+    {% endif %}
+{% endblock %}
+
+{% block jumbotron %}
+    <h4 class="display-4">Welcome
+        {% if logged == true and usuario.activo == 1 %}
+           again: {{ usuario.nombre }}
+        {% endif %}
+    </h4>
+    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+    <!-- modal -->
+    <div class="modal fade" id="modallogin" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="cliente/dologin.php" method="post" id="fLogin">
+                        <input class="form-control" type="email" name="correo" id="correo" required placeholder="Correo electrónico"/>
+                        <br>
+                        <input class="form-control" type="password" name="clave" id="clave" required placeholder="Clave de acceso"/>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="submit" form="fLogin" class="btn btn-primary" id="btLogin">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin modal -->
+{% endblock %}
+
+{% block contenido_principal %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div>
+        </div>
+        <hr>
+    </div>
+<!--<ul id="lista">
+    { % for item in lista % }
+        <li>
+            <a href="{ { item.href } }">{ { item.caption } }</a>
+        </li>
+    { % endfor % }
+</ul>-->
+{% endblock %}

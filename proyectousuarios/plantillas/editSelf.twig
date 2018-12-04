@@ -1,0 +1,91 @@
+{% extends 'bootstrap.twig' %}
+
+{% block nav_items %}
+<li class="nav-item">
+    <a class="nav-link" href="index.php">Usuario</a>
+</li>
+{% endblock %}
+
+{% block jumbotron %}
+<h4 class="display-4">
+    {% if usuario.admin %}
+            [ADMIN] 
+    {% endif %}
+    {{ title }}
+</h4>
+<p>Editar información de la cuenta</p>
+
+{% endblock %}
+
+{% block contenido_principal %}
+<div class="<form-group></form-group>">
+    <h3>Configuracion Basica</h3>
+	<div class="form-group">
+		<form action="doedit.php" method="post">
+            <input type="hidden" name="id" id="id" class="form-control" value="{{ usuario.id }}"/>
+            <div class="form-group">
+                <label for="alias">Alias</label>
+                <input type="text" name="alias" id="alias" class="form-control" placeholder="Enter alias"  value="{{ usuario.alias }}" required/>
+                <small id="alias" class="form-text text-muted">Nuevo Alias</small>
+            </div>
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Enter nombre"  value="{{ usuario.nombre }}" required/>
+                <small id="nombre" class="form-text text-muted">Nuevo nombre</small>
+            </div>
+          <button type="submit" class="btn btn-primary">Editar</button>
+        </form>
+	</div>
+	<h3>Cambiar de correo</h3>
+	<div class="form-group">
+		<form action="doedit.php" method="post">
+            <input type="hidden" name="id" id="id" class="form-control" value="{{ usuario.id }}"/>
+            <div class="form-group">
+                <label for="correo">Correo</label>
+                <input type="text" name="correo" id="correo" class="form-control" placeholder="Enter correo" value="{{ usuario.correo }}" required/>
+                <small id="correo" class="form-text text-muted">Debe activar de nuevo la cuenta</small>
+            </div>
+            <button type="submit" class="btn btn-warning">Cambiar Correo</button>
+        </form>
+	</div>
+	<h3>Cambiar clave</h3>
+	<div class="form-group">
+		<form action="doedit2.php" method="post">
+		    <input type="hidden" name="id" id="id" class="form-control" value="{{ usuario.id }}"/>
+            <div class="form-group">
+				<label for="clave">Clave Actual</label>
+				<input type="password" name="clave" id="clave" class="form-control" placeholder="Enter clave" required>
+				<small id="alias" class="form-text text-muted">Clave actual</small>
+			</div>
+            <div class="form-group">
+				<label for="clave">Clave</label>
+				<input type="password" name="clave1" id="clave1" class="form-control" placeholder="Enter nueva clave" required>
+				<small id="alias" class="form-text text-muted">Nueva clave</small>
+			</div>
+			<div class="form-group">
+				<label for="clave">Verificación clave</label>
+				<input type="password" name="clave2" id="clave2" class="form-control" placeholder="Repita clave" required>
+				<small id="alias" class="form-text text-muted">Repite la nueva contraseña</small>
+			</div>
+          <button type="submit" class="btn btn-danger">Editar</button>
+        </form>
+	</div>
+	<h3>DANGER ZONE</h3>
+	<div class="form-group">
+		<form action="doedit2.php" method="post">
+		    <input type="hidden" name="id" id="id" class="form-control" value="{{ usuario.id }}"/>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="baja" id="bajaTmp" value="option1" checked>
+                <label class="form-check-label" for="bajaTmp">Suspender cuenta temporalmente</label>
+                <small id="alias" class="form-text text-muted">Debera contactar con un administrador para recuperar la cuenta</small>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="baja" id="bajaTmp2" value="option2">
+                <label class="form-check-label" for="bajaTmp2">Baja definitiva</label>
+                <small id="alias" class="form-text text-muted">Eliminacion total de la cuenta y no se podra recuperar</small>
+            </div>
+            <button type="submit" class="btn btn-danger">Darse de Baja</button>
+        </form>
+	</div>
+</div>
+{% endblock %}

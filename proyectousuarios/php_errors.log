@@ -1,0 +1,888 @@
+[25-Nov-2018 17:03:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 14
+[25-Nov-2018 17:03:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 14
+[25-Nov-2018 17:04:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 14
+[25-Nov-2018 17:04:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 14
+[25-Nov-2018 17:04:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 14
+[25-Nov-2018 17:05:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 14
+[25-Nov-2018 17:05:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 14
+[25-Nov-2018 17:05:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 15
+[25-Nov-2018 17:06:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 15
+[25-Nov-2018 17:06:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 15
+[25-Nov-2018 17:07:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 14
+[25-Nov-2018 17:07:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 14
+[25-Nov-2018 17:09:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 14
+[25-Nov-2018 17:09:42 UTC] PHP Warning:  require(../../classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 3
+[25-Nov-2018 17:09:42 UTC] PHP Fatal error:  require(): Failed opening required '../../classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 3
+[25-Nov-2018 17:09:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 14
+[25-Nov-2018 17:10:11 UTC] PHP Warning:  require_once(classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 4
+[25-Nov-2018 17:10:11 UTC] PHP Fatal error:  require_once(): Failed opening required 'classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 4
+[25-Nov-2018 17:10:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Session' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 19
+[25-Nov-2018 17:10:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Session' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 19
+[25-Nov-2018 17:10:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Session' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 19
+[25-Nov-2018 17:10:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Session' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 19
+[25-Nov-2018 17:10:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Session' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 19
+[25-Nov-2018 17:10:39 UTC] PHP Fatal error:  Uncaught Error: Class 'App' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 20
+[25-Nov-2018 17:11:00 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\tools\App' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 21
+[25-Nov-2018 17:11:16 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\tools\App' not found in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 21
+[25-Nov-2018 17:11:44 UTC] PHP Notice:  Undefined variable: listaUsuarios2 in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 41
+[25-Nov-2018 17:11:44 UTC] PHP Notice:  Undefined variable: usurio in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 45
+[25-Nov-2018 17:11:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdmin() on null in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 45
+[25-Nov-2018 17:11:56 UTC] PHP Notice:  Undefined variable: usurio in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 45
+[25-Nov-2018 17:11:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdmin() on null in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 45
+[25-Nov-2018 17:12:09 UTC] PHP Notice:  Undefined variable: usuarios in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 134
+[25-Nov-2018 17:12:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 134
+[25-Nov-2018 22:17:36 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[25-Nov-2018 22:17:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdmin() on null in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 45
+[25-Nov-2018 22:17:50 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[25-Nov-2018 22:17:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdmin() on null in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 45
+[25-Nov-2018 22:18:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[25-Nov-2018 22:18:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdmin() on null in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 45
+[25-Nov-2018 22:19:24 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[25-Nov-2018 22:19:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdmin() on null in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 45
+[25-Nov-2018 22:19:37 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[25-Nov-2018 22:19:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdmin() on null in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 45
+[01-Dec-2018 11:02:47 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[01-Dec-2018 11:02:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdmin() on null in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 45
+[01-Dec-2018 11:02:50 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[01-Dec-2018 11:02:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdmin() on null in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 45
+[01-Dec-2018 11:16:10 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[01-Dec-2018 11:16:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdmin() on null in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 45
+[01-Dec-2018 11:16:11 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[01-Dec-2018 11:16:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdmin() on null in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 45
+[01-Dec-2018 12:24:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Session' not found in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 18
+[01-Dec-2018 12:24:56 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 51
+[01-Dec-2018 12:24:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Render' not found in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php:125
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 125
+[01-Dec-2018 12:25:12 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 51
+[01-Dec-2018 12:30:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 146
+[01-Dec-2018 12:31:40 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 51
+[01-Dec-2018 12:38:34 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 51
+[01-Dec-2018 12:39:07 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 51
+[01-Dec-2018 12:41:10 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 12:43:04 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 12:59:06 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 12:59:50 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 13:00:24 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 13:01:58 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 13:02:20 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 14:48:19 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 14:48:27 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 22:50:00 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[01-Dec-2018 22:50:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdmin() on null in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 47
+[01-Dec-2018 22:51:27 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 22:51:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Session' not found in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 13
+[01-Dec-2018 22:51:41 UTC] PHP Fatal error:  Uncaught Error: Class 'App' not found in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 14
+[01-Dec-2018 22:54:38 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 22:55:09 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 22:56:26 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 22:58:34 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 23:08:49 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 23:08:51 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 23:09:05 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 23:11:59 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:11:59 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type izv\data\Usuario as array in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 39
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 39
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 39
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 39
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 39
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 39
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 39
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 39
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 39
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 39
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 39
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 39
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 38
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 39
+[01-Dec-2018 23:13:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 39
+[01-Dec-2018 23:17:34 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 23:18:15 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 23:22:16 UTC] PHP Parse error:  syntax error, unexpected ''  '' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 41
+[01-Dec-2018 23:22:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 41
+[01-Dec-2018 23:22:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 41
+[01-Dec-2018 23:22:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 41
+[01-Dec-2018 23:22:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 41
+[01-Dec-2018 23:22:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 41
+[01-Dec-2018 23:22:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 41
+[01-Dec-2018 23:22:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 41
+[01-Dec-2018 23:22:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 41
+[01-Dec-2018 23:22:28 UTC] PHP Notice:  Use of undefined constant i - assumed 'i' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 41
+[01-Dec-2018 23:22:28 UTC] PHP Notice:  Undefined index: i in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 41
+[01-Dec-2018 23:25:42 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 23:25:59 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 23:33:57 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 23:33:59 UTC] PHP Notice:  Undefined variable: Reader in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 42
+[01-Dec-2018 23:33:59 UTC] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 42
+[01-Dec-2018 23:39:24 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 23:43:59 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 23:47:53 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[01-Dec-2018 23:48:28 UTC] PHP Notice:  Undefined variable: alert in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 52
+[02-Dec-2018 00:01:19 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 50
+[02-Dec-2018 00:01:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 50
+[02-Dec-2018 00:01:46 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 50
+[02-Dec-2018 00:05:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 57
+[02-Dec-2018 00:06:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 57
+[02-Dec-2018 00:15:10 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 43
+[02-Dec-2018 00:15:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 55
+[02-Dec-2018 09:16:00 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 09:16:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAdmin() on null in /home/ubuntu/workspace/proyectousuarios/usuario/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 47
+[02-Dec-2018 09:21:20 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\Util' not found in /home/ubuntu/workspace/proyectousuarios/classes/izv/managedata/ManageUsuario.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php(57): izv\managedata\ManageUsuario->edit(Object(izv\data\Usuario))
+#1 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/classes/izv/managedata/ManageUsuario.php on line 39
+[02-Dec-2018 09:21:47 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\Util' not found in /home/ubuntu/workspace/proyectousuarios/classes/izv/managedata/ManageUsuario.php:39
+Stack trace:
+#0 /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php(59): izv\managedata\ManageUsuario->edit(Object(izv\data\Usuario))
+#1 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/classes/izv/managedata/ManageUsuario.php on line 39
+[02-Dec-2018 09:25:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getAdministrador() in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 33
+[02-Dec-2018 09:55:38 UTC] PHP Parse error:  syntax error, unexpected '$usuario' (T_VARIABLE), expecting ',' or ')' in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 65
+[02-Dec-2018 10:00:35 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 10:00:47 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 10:01:51 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:20:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:24:02 UTC] PHP Notice:  Undefined property: izv\data\Usuario::$getId in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 53
+[02-Dec-2018 12:31:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:23 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:31:23 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:32:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:32:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:32:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:32:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:32:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:32:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:32:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:33:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:34:16 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:34:16 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 12:41:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 49
+[02-Dec-2018 12:41:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 53
+[02-Dec-2018 13:19:43 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit2.php on line 61
+[02-Dec-2018 13:20:20 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit2.php on line 61
+[02-Dec-2018 13:21:38 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:38 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:38 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:38 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:39 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:39 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:39 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:39 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:39 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:39 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:46 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:51 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:51 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:51 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:51 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:51 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:51 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:56 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:56 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:56 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:56 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:56 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:56 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:56 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:57 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:57 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:57 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:57 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:57 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:57 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:57 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:57 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:57 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:57 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:57 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:57 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:21:57 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:02 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:02 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:02 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:02 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:02 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:02 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:02 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:02 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:02 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:22:07 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:30:57 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ')' in /home/ubuntu/workspace/proyectousuarios/classes/izv/tools/Util.php on line 33
+[02-Dec-2018 13:38:08 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:08 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:08 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:08 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:08 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:09 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:09 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:09 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:09 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:10 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:10 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:10 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:10 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:11 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:11 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:11 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:11 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:11 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:11 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:11 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:13 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:13 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:13 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:13 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:13 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:13 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:13 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:13 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:13 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:13 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:14 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:14 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:14 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:14 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:14 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:14 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:14 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:14 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:21 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:27 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:27 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:27 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:27 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:27 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:38:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:13 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:14 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:14 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:14 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:15 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:15 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:15 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:16 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:16 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:16 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:16 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:16 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:16 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:16 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:16 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:17 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:39:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:29 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:30 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:30 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:30 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:30 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:30 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:30 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:40:31 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:06 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:07 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:07 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:07 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:07 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:07 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:42 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:42 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:41:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 13:42:38 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/ubuntu/workspace/proyectousuarios/usuario/dologout.php on line 19
+[02-Dec-2018 13:44:36 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:01:59 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:05:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/ubuntu/workspace/proyectousuarios/usuario/doedit2.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/doedit2.php on line 72
+[02-Dec-2018 17:06:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/ubuntu/workspace/proyectousuarios/usuario/doedit2.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/doedit2.php on line 72
+[02-Dec-2018 17:11:41 UTC] PHP Notice:  Undefined variable: sesion in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 15
+[02-Dec-2018 17:11:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function destroy() on null in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 15
+[02-Dec-2018 17:14:14 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 50
+[02-Dec-2018 17:29:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:18 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:19 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:19 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:19 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:19 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:19 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:20 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:42 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:42 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:29:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:04 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:05 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:05 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:05 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:05 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:05 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:23 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:30:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:31:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\tools\Session::setLogin() in /home/ubuntu/workspace/proyectousuarios/usuario/doedit2.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/doedit2.php on line 78
+[02-Dec-2018 17:33:11 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:33:30 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:33:50 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:33:53 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:34:16 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:35:12 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:35:16 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:35:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:35:53 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[02-Dec-2018 17:46:11 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[03-Dec-2018 11:21:46 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[03-Dec-2018 17:00:48 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[03-Dec-2018 17:22:13 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/dodelete.php on line 42
+[03-Dec-2018 17:22:23 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/dodelete.php on line 42
+[03-Dec-2018 17:55:06 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 56
+[03-Dec-2018 17:56:24 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 56
+[03-Dec-2018 17:58:37 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[03-Dec-2018 17:59:33 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "invalidArgument",
+    "message": "Recipient address required"
+   }
+  ],
+  "code": 400,
+  "message": "Recipient address required"
+ }
+}
+ in /home/ubuntu/workspace/proyectousuarios/classes/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/ubuntu/workspace/proyectousuarios/classes/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/ubuntu/workspace/proyectousuarios/classes/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/ubuntu/workspace/proyectousuarios/classes/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/ubuntu/workspace/proyectousuarios/classes/vendor/google/apiclient/src/Google in /home/ubuntu/workspace/proyectousuarios/classes/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[03-Dec-2018 17:59:52 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "invalidArgument",
+    "message": "Recipient address required"
+   }
+  ],
+  "code": 400,
+  "message": "Recipient address required"
+ }
+}
+ in /home/ubuntu/workspace/proyectousuarios/classes/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/ubuntu/workspace/proyectousuarios/classes/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/ubuntu/workspace/proyectousuarios/classes/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/ubuntu/workspace/proyectousuarios/classes/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/ubuntu/workspace/proyectousuarios/classes/vendor/google/apiclient/src/Google in /home/ubuntu/workspace/proyectousuarios/classes/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[03-Dec-2018 18:00:37 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 56
+[03-Dec-2018 18:00:40 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 56
+[03-Dec-2018 18:00:51 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 56
+[03-Dec-2018 19:02:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[03-Dec-2018 19:38:34 UTC] PHP Notice:  Undefined variable: clave in /home/ubuntu/workspace/proyectousuarios/usuario/register.php on line 19
+[03-Dec-2018 19:39:44 UTC] PHP Notice:  Undefined variable: clave in /home/ubuntu/workspace/proyectousuarios/usuario/register.php on line 19
+[03-Dec-2018 19:39:55 UTC] PHP Notice:  Undefined variable: clave in /home/ubuntu/workspace/proyectousuarios/usuario/register.php on line 19
+[03-Dec-2018 19:41:02 UTC] PHP Notice:  Undefined variable: clave in /home/ubuntu/workspace/proyectousuarios/usuario/register.php on line 19
+[03-Dec-2018 19:41:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Util' not found in /home/ubuntu/workspace/proyectousuarios/usuario/register.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/register.php on line 18
+[03-Dec-2018 19:42:49 UTC] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT), expecting ',' or ';' in /home/ubuntu/workspace/proyectousuarios/usuario/register.php on line 20
+[03-Dec-2018 19:43:13 UTC] PHP Notice:  Undefined variable: clave in /home/ubuntu/workspace/proyectousuarios/usuario/register.php on line 19
+[03-Dec-2018 19:45:38 UTC] PHP Notice:  Undefined variable: manager in /home/ubuntu/workspace/proyectousuarios/usuario/register.php on line 33
+[03-Dec-2018 19:45:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add() on null in /home/ubuntu/workspace/proyectousuarios/usuario/register.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/register.php on line 33
+[03-Dec-2018 19:46:55 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\manager\ManageUsuario' not found in /home/ubuntu/workspace/proyectousuarios/usuario/register.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/register.php on line 34
+[03-Dec-2018 19:47:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[03-Dec-2018 19:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getAdministrador() in /home/ubuntu/workspace/proyectousuarios/usuario/insert.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/insert.php on line 35
+[03-Dec-2018 19:51:44 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/proyectousuarios/usuario/doinsert.php on line 19
+[03-Dec-2018 19:53:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getAdministrador() in /home/ubuntu/workspace/proyectousuarios/usuario/doinsert.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/doinsert.php on line 19
+[03-Dec-2018 19:53:30 UTC] PHP Notice:  Undefined variable: clave2 in /home/ubuntu/workspace/proyectousuarios/usuario/doinsert.php on line 24
+[03-Dec-2018 19:54:06 UTC] PHP Notice:  Undefined variable: clave2 in /home/ubuntu/workspace/proyectousuarios/usuario/doinsert.php on line 24
+[03-Dec-2018 19:54:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Util' not found in /home/ubuntu/workspace/proyectousuarios/usuario/doinsert.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/doinsert.php on line 18
+[03-Dec-2018 20:00:50 UTC] PHP Notice:  Undefined variable: clave2 in /home/ubuntu/workspace/proyectousuarios/usuario/doinsert.php on line 25
+[03-Dec-2018 20:03:10 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\manager\ManageUsuario' not found in /home/ubuntu/workspace/proyectousuarios/usuario/doinsert.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/doinsert.php on line 37
+[03-Dec-2018 21:28:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getAdministrador() in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyectousuarios/usuario/edit.php on line 54
+[03-Dec-2018 21:30:16 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 56
+[03-Dec-2018 21:30:51 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 56
+[03-Dec-2018 21:35:53 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 58
+[03-Dec-2018 21:36:21 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 58
+[03-Dec-2018 21:48:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[03-Dec-2018 21:53:12 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 58
+[03-Dec-2018 21:55:02 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 58
+[03-Dec-2018 22:05:21 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 58
+[03-Dec-2018 22:05:26 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 58
+[03-Dec-2018 22:05:30 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 58
+[03-Dec-2018 22:09:05 UTC] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php/sessions) failed: Permission denied (13) in /home/ubuntu/workspace/proyectousuarios/classes/izv/tools/Session.php on line 15
+[03-Dec-2018 22:21:35 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 58
+[03-Dec-2018 22:22:41 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[03-Dec-2018 22:27:25 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[04-Dec-2018 07:59:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[04-Dec-2018 08:00:16 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 58
+[04-Dec-2018 08:01:13 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 58
+[04-Dec-2018 08:02:20 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 58
+[04-Dec-2018 08:04:00 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 58
+[04-Dec-2018 09:52:31 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23
+[04-Dec-2018 09:54:02 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 58
+[04-Dec-2018 09:54:10 UTC] PHP Notice:  Undefined variable: changemail in /home/ubuntu/workspace/proyectousuarios/usuario/doedit.php on line 58
+[04-Dec-2018 15:35:55 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyectousuarios/usuario/index.php on line 23

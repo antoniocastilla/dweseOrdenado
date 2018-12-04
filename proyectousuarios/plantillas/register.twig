@@ -1,0 +1,40 @@
+{% extends 'bootstrap.twig' %}
+
+{% block jumbotron %}
+<h4 class="display-4"> {{title }}</h4>
+<p>
+	Rellene los campos correctamente. Se le enviará un correo electrónico
+	para que active su cuenta.
+</p>
+
+{% endblock %}
+
+{% block contenido_principal %}
+<h2>Registro</h2>
+<div class="form-group">
+		<form action="register.php" method="post">
+			<div class="form-group">
+				<label for="correo">Correo</label>
+				<input type="text" name="correo" id="correo" class="form-control" placeholder="Enter correo" required>
+			</div>
+			<div class="form-group">
+				<label for="alias">Alias</label>
+				<input type="text" name="alias" id="alias" class="form-control" placeholder="Enter alias">
+			</div>
+			<div class="form-group">
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Enter nombre" required>
+			</div>
+			<div class="form-group">
+				<label for="clave">Clave</label>
+				<input type="password" name="clave" id="clave" class="form-control" placeholder="Enter clave" required>
+			</div>
+			<div class="form-group">
+				<label for="clave">Verificación clave</label>
+				<input type="password" name="clave2" id="clave2" class="form-control" placeholder="Enter clave" required>
+			</div>
+			
+			<button type="submit" class="btn btn-primary">Registrarse</button>
+		</form>
+</div>
+{% endblock %}

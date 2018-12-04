@@ -1,0 +1,41 @@
+/*
+$enunciado = 
+
+    Proyecto solo para usuarios con campo administrador (0,1).
+    Si te logueas con admin, puedes hacer todo con cualquier usuario ;
+
+*/
+
+
+/*
+    $notas {
+    
+        - Pagina Principal:
+            Home / Login
+            
+        - Pagina de Usuarios bulgaris
+            Lista de usuarios basica(sin editar)
+            Editarse a si mismo
+    
+        - Pagina de Administradores
+            Lista de usuarios para hacer lo que quiera
+            
+            
+        Uso de plantillas Twig
+            - Plantilla padre 
+                bootstrap
+            - Plantilla hijas:  
+                home
+                tablaBasica
+                tablaRoot
+                formularios: 
+                    register insertRoot 
+                    editSelf editRoot
+                    updateSelf updateRoot
+        
+        
+        Uso de ORM (Object Relational Mapping) Doctrine
+        
+    }
+    
+*/

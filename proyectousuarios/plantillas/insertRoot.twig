@@ -1,0 +1,42 @@
+{% extends 'bootstrap.twig' %}
+
+{% block jumbotron %}
+<h4 class="display-4">[ADMIN] {{ title }}</h4>
+<p>Añade usuarios con precaución</p>
+
+{% endblock %}
+
+{% block contenido_principal %}
+<h2>Insertar</h2>
+<div class="form-group">
+	<div class="form-group">
+		<form action="doinsert.php" method="post">
+			<div class="form-group">
+				<label for="correo">Correo</label>
+				<input type="text" name="correo" id="correo" class="form-control" placeholder="Enter correo" required>
+			</div>
+			<div class="form-group">
+				<label for="alias">Alias</label>
+				<input type="text" name="alias" id="alias" class="form-control" placeholder="Enter alias">
+			</div>
+			<div class="form-group">
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Enter nombre" required>
+			</div>
+			<div class="form-group">
+				<label for="clave">Clave</label>
+				<input type="password" name="clave" id="clave" class="form-control" placeholder="Enter clave" required>
+			</div>
+			<div class="form-check">
+				<input type="checkbox" class="form-check-input" name="admin" id="admin" value="1">
+				<label class="form-check-label" for="activo">Admin</label>
+			</div>
+			<div class="form-check">
+				<input type="checkbox" class="form-check-input" name="activo" id="activo" value="1">
+				<label class="form-check-label" for="activo">Activo</label>
+			</div>
+			<button type="submit" class="btn btn-primary">Agregar</button>
+		</form>
+	</div>
+</div>
+{% endblock %}

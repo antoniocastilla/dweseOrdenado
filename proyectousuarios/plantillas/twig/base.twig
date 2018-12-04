@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Título</title>
+    </head>
+    <body>
+        <div id="content">
+            {% block body %}<h1>contenido inicial</h1>{% endblock %}
+            {% block body2 %}{% endblock %}
+            <h1>{{body}}</h1>
+            <h2>body</h2>
+        </div>
+    </body>
+</html>
