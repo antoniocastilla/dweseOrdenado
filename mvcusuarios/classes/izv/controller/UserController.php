@@ -28,6 +28,13 @@ class UserController extends Controller {
         //...
     }
     
+    function __checkAdmin() {
+        if (!$this->getSession()->getLogin()->getAdmin()) {
+            header('Location: index/main');
+            exit();
+        }
+    }
+    
     function __checkLogged() {
         if (!$this->getSession()->isLogged() || !$this->getSession()->getLogin()->getActivo()) {
             header('Location: index/main');
@@ -51,10 +58,14 @@ class UserController extends Controller {
         $this->__checkRedirect();
         $id = Reader::read('id');
         if($id == null || !is_numeric($id) || $id <= 0) {
-            header('Location: ' . $redirect);
+            header('Location: ' . App::BASE . $redirect);
             exit();
         }
         $usuario = $this->getModel()->getUsuario($id);
+        if($usuario == null) {
+            header('Location: ' . App::BASE . $redirect);
+            exit();
+        }
         $changemail = false;
         foreach($usuario->get() as $i => $valor) {
             $campo = Reader::read($i);
@@ -72,6 +83,7 @@ class UserController extends Controller {
                 }
             }
         }
+        //echo Util::varDump($usuario);exit();
         $usuario->setClave('');
         $op = 'edituser';
         if ($changemail) {
@@ -85,8 +97,118 @@ class UserController extends Controller {
         if($resultado && $usuario->getId() ===  $this->getSession()->getLogin()->getId()) {
             $this->getSession()->login($usuario);
         }
-        $url = $this->redirect . '?op='. $op . '&r=' . $resultado;
-        header('Location: ' . App::BASE .$url);
+        $url = App::BASE . $this->redirect . '?op='. $op . '&r=' . $resultado;
+        header('Location: ' . $url);
+    }
+    
+    function edituseradvanced() {
+        $this->__checkLogged();
+        $this->__checkRedirect();
+        $id = Reader::read('id');
+        if($id == null || !is_numeric($id) || $id <= 0) {
+            header('Location: ' . App::BASE . $redirect);
+            exit();
+        }
+        $usuario = $this->getModel()->getUsuario($id);
+        if($usuario == null) {
+            header('Location: ' . App::BASE . $redirect);
+            exit();
+        }
+        
+        $op = 'edituser';
+        $changepassword = false;
+        $baja = false;
+        
+        $clavesDiferentes = false;
+        $clave = Reader::read('clave');
+        $claveNueva = '';
+        if ( $clave != null) {
+            $op = 'editclave';
+            $claveCorrecta = Util::verificarClave($clave, $usuario->getClave());
+            if ($claveCorrecta) {
+                if ($clave !== Reader::read('clave1') & Reader::read('clave1') === Reader::read('clave2')) {
+                    $clavesDiferentes = true;
+                    $changepassword = true;    
+                    $usuario->setClave(Reader::read('clave1'));
+                }
+            }
+        } else {
+            $option = Reader::read('baja');
+            if (isset($option)) {
+                $baja = true;
+            }
+        }
+        $resultado = 0;
+        $url = App::BASE . $this->redirect . '?op='. $op . '&r=' . $resultado;
+        if($changepassword && $clavesDiferentes) {
+            $usuario->setClave(Util::encriptar($usuario->getClave()));
+            $resultado = $this->getModel()->editWithPassword($usuario);
+            // Sobreescribimos la sesión si hemos hecho cambios en nuestra cuenta.
+            if($resultado && $usuario->getId() ===  $this->getSession()->getLogin()->getId()) {
+                $this->getSession()->login($usuario);
+            }
+        } else {
+            $op = 'removeaccount';
+            if ($option === 'option1') {
+                $usuario->setActivo(0);
+                $resultado = $this->getModel()->editUsuario($usuario);
+            } else {
+                if ($option === 'option2') {
+                    $resultado = $this->getModel()->remove($usuario->getId());
+                }
+            }
+            if ($resultado) {
+                $this->dologout();
+            }
+        }
+        header('Location: ' . $url);
+    }
+    
+    function edituseradvancedp() {
+        $this->__checkLogged();
+        $this->__checkAdmin();
+        $this->__checkRedirect();
+        $id = Reader::read('id');
+        if($id == null || !is_numeric($id) || $id <= 0) {
+            header('Location: ' . App::BASE . $redirect);
+            exit();
+        }
+        $usuario = $this->getModel()->getUsuario($id);
+        if($usuario == null) {
+            header('Location: ' . App::BASE . $redirect);
+            exit();
+        }
+        $op = 'edituser';
+        $changepassword = false;
+        $clave = Reader::read('clave');
+        if ($clave !== '') {
+            $changepassword = true;
+            $usuario->setClave($clave);
+        } 
+        
+        $resultado = 0;
+        if($changepassword) {
+            $usuario->setClave(Util::encriptar($usuario->getClave()));
+            $resultado = $this->getModel()->editWithPassword($usuario);
+        }
+        $url = App::BASE . $this->redirect . '?op='. $op . '&r=' . $resultado;
+        header('Location: ' . $url);
+    }
+    
+    function dodelete() {
+        $this->__checkLogged();
+        $this->__checkAdmin();
+        $this->__checkRedirect();
+        $id = Reader::read('id');
+        if($id == null || !is_numeric($id) || $id <= 0) {
+            header('Location: ' . App::BASE . $redirect);
+            exit();
+        }
+        $resultado = 0;
+        $op = 'removeaccount';
+        $resultado = $this->getModel()->remove($id);
+        $url = App::BASE . $this->redirect . '?op='. $op . '&r=' . $resultado;
+        header('Location: ' . $url);
     }
 
     function dologin() {
@@ -96,12 +218,10 @@ class UserController extends Controller {
             header('Location: ' . App::BASE . 'index?op=login&r=session');
             exit();
         }
-
         //2º lectura de datos
         $usuario = Reader::readObject('izv\data\Usuario');
         //4º usar el modelo
         $r = $this->getModel()->login($usuario);
-
         if($r !== false) {
             $this->getSession()->login($r);
             $r = 1;

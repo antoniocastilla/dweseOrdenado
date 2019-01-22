@@ -19,7 +19,7 @@ class DashboardController extends Controller {
     
     function __checkLogged() {
         if (!$this->getSession()->isLogged() || !$this->getSession()->getLogin()->getActivo()) {
-            header('Location: index/main');
+            header('Location: user/dologout');
             exit();
         }
     }
@@ -30,7 +30,7 @@ class DashboardController extends Controller {
         //$users = $this->getModel()->getAllOrOne();
         $user = $this->getSession()->getLogin()->get();
         $this->getModel()->set('user', $user);
-        $this->getModel()->set('twigFile', 'user.twig');
+        $this->getModel()->set('twigFile', 'editSelf.twig');
         if ($this->getSession()->getLogin()->getAdmin()) {
             $this->getModel()->set('admin',true);
             $this->getModel()->set('twigFile', 'dashboard.twig');
@@ -47,17 +47,25 @@ class DashboardController extends Controller {
         //5º producir resultado
         //$users = $this->getModel()->getAllOrOne();
         //echo Util::varDump($this->getSession()->getLogin()->get());exit();
-        if ($this->getSession()->getLogin()->getAdmin()) {
-            $this->getModel()->set('admin',true);
-        }
         $user = $this->getSession()->getLogin()->get();
         $this->getModel()->set('user', $user);
         $this->getModel()->set('twigFile', 'editSelf.twig');
+        if ($this->getSession()->getLogin()->getAdmin()) {
+            $id = Reader::read('id');
+            if(!($id == null || !is_numeric($id) || $id <= 0)) {
+                $user = $this->getModel()->get($id);
+                $this->getModel()->set('user', $user);
+            }
+            $this->getModel()->set('admin',true);
+            $this->getModel()->set('twigFile', 'editRoot.twig');
+        }
     }
     
     function table() {
         $this->__checkLogged();
-        $this->getModel()->set('twigFile', 'table.twig');
+        $usuarios = $this->getModel()->getAll();
+        $this->getModel()->set('users', $usuarios);
+        $this->getModel()->set('twigFile', 'tableBasic.twig');
         if ($this->getSession()->getLogin()->getAdmin()) {
             $this->getModel()->set('admin',true);
             $this->getModel()->set('twigFile', 'tableRoot.twig');

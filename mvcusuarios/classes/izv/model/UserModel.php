@@ -92,4 +92,20 @@ class UserModel extends Model {
         return $resultado;
     }
     
+    function editWithPassword($usuario) {
+        $db = new Database();
+        $manager = new ManageUsuario($db);
+        $resultado = $manager->editWithPassword($usuario);
+        $db->close();
+        return $resultado;
+    }
+    
+    function remove($id) {
+        $db = new Database();
+        $manager = new ManageUsuario($db);
+        $resultado = $manager->remove($id);
+        $db->close();
+        return $resultado;
+    }
+    
 }

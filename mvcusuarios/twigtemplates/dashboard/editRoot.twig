@@ -3,7 +3,7 @@
 {% block content %}
     <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="navbar-brand" href="#pablo">User Profile</a>
+            <a class="navbar-brand" href="#pablo">Editing as Administrator</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -75,7 +75,7 @@
                   </a>
                 </div>
                 <div class="card-body">
-                  <h6 class="card-category text-gray">Usuario activado</h6>
+                  <h6 class="card-category text-gray">Usuario administrador</h6>
                   <h4 class="card-title">{{ user.nombre }}</h4>
                   <p class="card-description">
                     Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
@@ -86,10 +86,9 @@
             </div>
           <div class="row">
             
-            <div class="col-md-8">
+            <div class="col-md-6">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title">Edit Profile</h4>
                   <p class="card-category">Basic configuration</p>
                 </div>
                 <div class="card-body">
@@ -115,7 +114,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
               <div class="card">
                 <div class="card-header card-header-primary">
                   <p class="card-category">Mail configuration</p>
@@ -138,35 +137,60 @@
               </div>
             </div>
             
-            <div class="col-md-8">
+            <div class="col-md-6">
               <div class="card">
                 <div class="card-header card-header-primary">
                   <p class="card-category">Password configuration</p>
                 </div>
                 <div class="card-body">
-                  <form method="post" action="user/edituseradvanced?redirect=dashboard/user">
+                  <form method="post" action="user/edituseradvancedp?redirect=dashboard/user">
                     <input type="hidden" name="id" id="id" class="form-control" value="{{ user.id }}"/>
                     <div class="row">
                       <div class="col-md-7">
                         <div class="form-group">
-                          <label class="bmd-label-floating">Actual password</label>
-                          <input type="password" class="form-control" name="clave" id="clave" required>
-                        </div>
-                      </div>
-                      <div class="col-md-7">
-                        <div class="form-group">
                           <label class="bmd-label-floating">New Password</label>
-                          <input type="password" class="form-control" name="clave1" id="clave1" required>
-                        </div>
-                      </div>
-                      <div class="col-md-7">
-                        <div class="form-group">
-                          <label class="bmd-label-floating">Confirm new password</label>
-                          <input type="password" class="form-control" name="clave2" id="clave2" required>
+                          <input type="password" class="form-control" name="clave" id="clave" required>
                         </div>
                       </div>
                     </div>
                     <button type="submit" class="btn btn-primary pull-right">Update password</button>
+                    <div class="clearfix"></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                  <p class="card-category">Danger Zone</p>
+                </div>
+                <div class="card-body">
+                  <form method="post" action="user/edituserbasic?redirect=dashboard/user">
+                    <input type="hidden" name="id" id="id" class="form-control" value="{{ user.id }}"/>
+                    <div class="row">
+                      <div class="col-md-5" style="padding-left:50px;">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">User activated: </label><br>
+                          <input type="hidden" name="activo" id="activo" value="0">
+                          <input type="checkbox" class="form-check-input" name="activo" id="activo" value="1" 
+                            {% if user.activo %}
+                                checked
+                            {% endif %}/>
+                        </div>
+                      </div>
+                      <div class="col-md-5">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Admin privilegies: </label><br>
+                          <input type="hidden" name="admin" id="admin" value="0">
+                          <input type="checkbox" class="form-check-input" name="admin" id="admin" value="1"
+                            {% if user.admin %}
+                            checked
+                            {% endif %} >
+                        </div>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary pull-right">Update profile</button>
                     <div class="clearfix"></div>
                   </form>
                 </div>
