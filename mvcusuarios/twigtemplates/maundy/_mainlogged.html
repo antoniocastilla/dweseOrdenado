@@ -1,0 +1,128 @@
+{% extends '_base.html' %}
+{% block subtitle %}
+<div class="subcription-info text-center">
+    <div class="text-center">
+        <a href="index/edituser" class="btn contact-submit" role="button">Editar {{user}}</a>
+        {% if administrador %}
+            <a href="admin/main" target="admin" class="btn contact-submit" role="button">Administrar</a>
+        {% endif %}
+        <a href="index/dologout" class="btn contact-submit" role="button">Cerrar sesión</a>
+    </div>
+</div>
+<div id="countdown" data-wow-delay=".3s" data-date="Mar 12, 2019 10:15:00"></div>
+<h2 class="subs-title text-center">Accede a nuestra web</h2>
+<h2 class="subs-title text-center">¡¡¡Recibe nuestras novedades!!!</h2>
+<div class="subcription-info text-center">
+    <form class="subscribe_form" action="#" method="post">
+        <input required="" value="" placeholder="Introduce tu correo ..." class="email" id="email" name="email" type="email">
+        <input class="subscribe" name="email" value="¡Apúntate!" type="submit">
+    </form>
+    <p class="sub-p">&laquo;Don't know&raquo;.</p>
+</div>
+{% endblock %}
+{% block social %}
+<section>
+    <div class="container">
+        <div class="row bort text-center">
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+{% block about %}
+<section id="about" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+                <div class="about-title">
+                    <h2>Conócenos</h2>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium </br>voluptatum deleniti atque corrupti quos dolores.</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-02s">
+                    <div class="img">
+                        <i class="fa fa-refresh"></i>
+                    </div>
+                    <h3 class="abt-hd">Nuestro trabajo</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-04s">
+                    <div class="img">
+                        <i class="fa fa-eye"></i>
+                    </div>
+                    <h3 class="abt-hd">Nuestra visión</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-06s">
+                    <div class="img">
+                        <i class="fa fa-cogs"></i>
+                    </div>
+                    <h3 class="abt-hd">Nuestro conocimiento</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-08s">
+                    <div class="img">
+                        <i class="fa fa-dot-circle-o"></i>
+                    </div>
+                    <h3 class="abt-hd">Nuestro objetivo</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+{% block contact %}
+<div id="contact-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-title">
+                    <i class="fa fa-envelope"></i>
+                    <h2>Mántente informado</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="contact col-md-6 wow fadeIn delay-08s">
+                <div class="col-md-10 col-md-offset-1">
+                    <div id="note"></div>
+                    <div id="sendmessage">Su mensaje ha sido enviado.</div>
+                    <div id="errormessage"></div>
+                    <form action="" method="post" role="form" class="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Su nombre" data-rule="minlen:4" data-msg="Por favor, al menos 4 caracteres." />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Su correo" data-rule="email" data-msg="Por favor, un correo electrónico válido." />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor, al menos 8 caracteres." />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor, escríbanos algo." placeholder="Mensaje"></textarea>
+                            <div class="validation"></div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="contact-submit">Enviar mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

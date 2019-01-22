@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <base href="{{urlbase}}" >
+        <title>&laquo;Don't know&raquo; by Maundy</title>
+        <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+        <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+        <link href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,400italic,300italic,300|Raleway:300,400,600' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="{{twigFolder}}/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="{{twigFolder}}/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="{{twigFolder}}/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="{{twigFolder}}/css/style.css">
+        <!-- =======================================================
+        Theme Name: Maundy
+        Theme URL: https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/
+        Author: BootstrapMade.com
+        Author URL: https://bootstrapmade.com
+        ======================================================= -->
+    </head>
+    <body>
+        <!--<div class="container" style="margin-top: 15px;">
+            <div class="alert alert-success" role="alert">
+                <strong>Well done!</strong> You successfully read this important alert message.
+            </div>
+        </div>-->
+        <div class="content">
+            <div class="container wow fadeInUp delay-03s">
+                <div class="row">
+                    <div class="logo text-center">
+                        <img src="img/logo.png" alt="logo" width="150">
+                        <h2>Desarrollo web en entorno servidor</h2>
+                    </div>
+                    {% block subtitle %}{% endblock %}
+                </div>
+            </div>
+            {% block social %}{% endblock %}
+            {% block about %}{% endblock %}
+            {% block contact %}{% endblock %}
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row bort">
+                    <div class="copyright">
+                        © Copyright Maundy Theme. Todos los derechos reservados.
+                        <div class="credits">
+                            <!--
+                              All the links in the footer should remain intact. 
+                              You can delete the links only if you purchased the pro version.
+                              Licensing information: https://bootstrapmade.com/license/
+                              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Maundy
+                            -->
+                            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="{{twigFolder}}/js/jquery.min.js"></script>
+        <script src="{{twigFolder}}/js/bootstrap.min.js"></script>
+        <script src="{{twigFolder}}/js/jquery.countdown.min.js"></script>
+        <script src="{{twigFolder}}/js/wow.js"></script>
+        <script src="{{twigFolder}}/js/custom.js"></script>
+        <script src="{{twigFolder}}/contactform/contactform.js"></script>
+    </body>
+</html>

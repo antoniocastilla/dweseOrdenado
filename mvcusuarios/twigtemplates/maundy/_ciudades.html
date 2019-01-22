@@ -1,0 +1,65 @@
+{% extends '_base.html' %}
+{% block subtitle %}
+<div class="col-lg-12">
+    <div class='row mi-margen-inferior'>
+        <form action="index/ciudades" method="get" enctype="multipart/form-data" id="elForm">
+            <div class='col-md-4 col-md-offset-3' >
+                <input type="text" name="filtro" class="form-control" id="filtro" placeholder="Filtrar" value="{{filtro}}" />
+                <input type="hidden" name="orden" id="orden" value="{{orden}}" />
+            </div>
+            <div class='col-md-2'>
+                <input type="submit" class="btn btn-success" value="Ok">
+            </div>
+        </form>
+    </div>
+    <table class="table">
+        <tr>
+            <th scope="col">
+                <a href="index/ciudades?orden=id">id</a>
+            </th>
+            <th scope="col">
+                <a href="index/ciudades?orden=name">nombre</a>
+            </th>
+            <th scope="col">
+                <a href="index/ciudades?orden=countrycode">código país</a>
+            </th>
+            <th scope="col">
+                <a href="index/ciudades?orden=district">distrito</a>
+            </th>
+            <th scope="col">
+                <a href="index/ciudades?orden=population">población</a>
+            </th>
+        </tr>
+        {% for city in ciudades %}
+        <tr>
+            <td scope="col">{{city.id}}</td>
+            <td scope="col">{{city.name}}</td>
+            <td scope="col">{{city.countrycode}}</td>
+            <td scope="col">{{city.district}}</td>
+            <td scope="col">{{city.population}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <div class='row'>
+        <div class='col-md-3'>
+            <a href="index/ciudades?pagina={{paginas.primero}}&orden={{orden}}" class="btn contact-submit" role="button">Primero</a>
+        </div>
+        <div class='col-md-3'>
+            <a href="index/ciudades?pagina={{paginas.anterior}}&orden={{orden}}" class="btn contact-submit" role="button">Anterior</a>
+        </div>
+        <div class='col-md-3'>
+            <a href="index/ciudades?pagina={{paginas.siguiente}}&orden={{orden}}" class="btn contact-submit" role="button">Siguiente</a>
+        </div>
+        <div class='col-md-3'>
+            <a href="index/ciudades?pagina={{paginas.ultimo}}&orden={{orden}}" class="btn contact-submit" role="button">Último</a>
+        </div>
+    </div>
+    <div class='row mi-margen-inferior'>
+        {% for pagina in rango %}
+            <div class='col-md-1'>
+                <a href="index/ciudades?pagina={{pagina}}&orden={{orden}}" class="btn contact-submit" role="button">{{pagina}}</a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{%endblock%}

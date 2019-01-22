@@ -1,0 +1,27 @@
+{% extends '_base.html' %}
+{% block about %}
+<div class="container" style="margin-bottom: 15px;">
+    <div class="row">
+        <form action="index/doregister" method="post" role="form" class="contactForm">
+            <div class="form-group">
+                <input type="email" required class="form-control" name="correo" id="correo" placeholder="Su correo" data-rule="email" data-msg="Por favor, un correo electrónico válido." />
+                <div class="validation"></div>
+            </div>
+            <div class="form-group">
+                <input type="password" required class="form-control" name="clave" id="clave" placeholder="Clave de acceso" data-rule="minlen:4" data-msg="Por favor, al menos 4 caracteres." />
+                <div class="validation"></div>
+            </div>
+            <div class="form-group">
+                <input type="password" required class="form-control" name="clave2" id="clave2" placeholder="Repita la clave de acceso" data-rule="#clave" data-msg="Las dos claves deben coincidir." />
+                <div class="validation"></div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="contact-submit">Registro</button>
+            </div>
+        </form>
+        <div class="text-center">
+            <a href="." class="btn contact-submit" role="button">Volver</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

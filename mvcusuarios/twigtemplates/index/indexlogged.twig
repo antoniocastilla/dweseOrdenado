@@ -1,0 +1,8 @@
+{% extends 'base.twig' %}
+
+{% block welcome %}
+    <h1 class="hero-lead">Bienvenido</h1>
+    <h4 class="h-alt hero-secondary">{{ user }}</h4>
+    <a href="dashboard" class="btn btn-light">Dashboard</a>
+    <a href="user/dologout" class="btn btn-light">Logout</a>
+{% endblock %}
