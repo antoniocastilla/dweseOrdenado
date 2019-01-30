@@ -49,19 +49,6 @@ class UserModel extends Model {
         );
     }
 
-    function getTotalCiudades() {
-        $ciudades = 0;
-        if($this->getDatabase()->connect()) {
-            $sql = 'select count(*) from city';
-            if($this->getDatabase()->execute($sql)) {
-                if($fila = $this->getDatabase()->getSentence()->fetch()) {
-                    $ciudades = $fila[0];
-                }
-            }
-        }
-        return $ciudades;
-    }
-
     function login(Usuario $usuario) {
         $manager = new ManageUsuario($this->getDatabase());
         return $manager->login($usuario->getCorreo(), $usuario->getClave());

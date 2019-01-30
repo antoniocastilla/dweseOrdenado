@@ -78,12 +78,12 @@
           <div class="table-responsive">
             <table class="table">
               <thead class=" text-primary">
-                <th scope="col">Id</th>
-                <th scope="col">Mail</th>
-                <th scope="col">Alias</th>
-                <th scope="col">Name</th>
-                <th scope="col">Active</th>
-                <th scope="col">Date</th>
+                <th scope="col"><a href="dashboard/table?orden=id">ID</a></th>
+                <th scope="col"><a href="dashboard/table?orden=correo">Mail</a></th>
+                <th scope="col"><a href="dashboard/table?orden=alias">Alias</a></th>
+                <th scope="col"><a href="dashboard/table?orden=nombre">Name</a></th>
+                <th scope="col"><a href="dashboard/table?orden=activo">Active</a></th>
+                <th scope="col"><a href="dashboard/table?orden=fechaalta">Date</a></th>
                 <th scope="col">Edit</th>
                 <th scope="col">Remove</th>
               </thead>
@@ -103,6 +103,13 @@
               </tbody>
             </table>
           </div>
+          <div class="row">
+              {% for pagina in rango %}
+                  <div class='col-md-1'>
+                      <a href="dashboard/go?redirect=dashboard/table&pagina={{pagina}}&orden={{orden}}" class="btn contact-submit" role="button">{{pagina}}</a>
+                  </div>
+              {% endfor %}
+            </div>
         </div>
       </div>
     </div>

@@ -5,6 +5,7 @@ namespace izv\model;
 use izv\data\Usuario;
 use izv\database\Database;
 use izv\managedata\ManageUsuario;
+use izv\tools\Pagination;
 
 class DashboardModel extends UserModel {
 
@@ -33,6 +34,56 @@ class DashboardModel extends UserModel {
         $usuario = $manager->get($id);
         $db->close();
         return $usuario;
-        
+    }
+    
+    function getTotalUsuarios() {
+        $usuarios = 0;
+        if($this->getDatabase()->connect()) {
+            $sql = 'select count(*) from usuario2';
+            if($this->getDatabase()->execute($sql)) {
+                if($fila = $this->getDatabase()->getSentence()->fetch()) {
+                    $usuarios = $fila[0];
+                }
+            }
+        }
+        $this->__destruct();
+        return $usuarios;
+    }
+    
+    function getUsuarios($pagina = 1, $orden = 'nombre', $filtro = null) {
+        $total = $this->getTotalUsuarios();
+        $paginacion = new Pagination($total, $pagina);
+        $offset = $paginacion->offset();
+        $rpp = $paginacion->rpp();
+        $parametros = array(
+            'offset' => array($offset, \PDO::PARAM_INT),
+            'rpp' => array($rpp, \PDO::PARAM_INT)
+        );
+        if($filtro == null) {
+            $sql = 'select * from usuario2 order by '. $orden .', nombre, correo, alias, fechaalta, id limit :offset, :rpp';
+        } else {
+            $sql = 'select * from usuario2
+                    where id like :filtro or nombre like :filtro or correo like :filtro or alias like :filtro or fechaalta like :filtro
+                    order by '. $orden .', nombre, correo, alias, fechaalta, id limit :offset, :rpp';
+            $parametros['filtro'] = '%' . $filtro . '%';
+        }
+        $array = [];
+        if($this->getDatabase()->connect()) {
+            if($this->getDatabase()->execute($sql, $parametros)) {
+                while($fila = $this->getDatabase()->getSentence()->fetch()) {
+                    $objeto = new Usuario();
+                    $objeto->set($fila);
+                    $array[] = $objeto;
+                }
+            }
+        }
+        $enlaces = $paginacion->values();
+        return array(
+            'paginas' => $enlaces,
+            'users' => $array,
+            'rango' => $paginacion->range(2),
+            'orden' => $orden,
+            'filtro' => $filtro
+        );
     }
 }

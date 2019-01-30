@@ -12,6 +12,7 @@ class Router {
             'index' => new Route('Model', 'MainView', 'MainController'),
             'user' => new Route('UserModel', 'UserView', 'UserController'),
             
+            
             'old'   => new Route('FirstModel', 'FirstView' , 'FirstController'),
             'gaas' => new Route('FirstModel', 'SecondView', 'FirstController')
         );
