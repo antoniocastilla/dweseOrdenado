@@ -1,0 +1,9 @@
+{
+    "require": {
+        "google/apiclient": "^2.0",
+        "phpmailer/phpmailer": "^6.0",
+        "firebase/php-jwt": "^5.0",
+        "twig/twig": "^2.5",
+        "doctrine/orm": "^2.5"
+    }
+}

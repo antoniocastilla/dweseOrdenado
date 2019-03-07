@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<base href="{{urlbase}}">
+	<title>My Bookmarks</title>
+	<link rel="stylesheet" href="{{twigFolder}}/css/style.css">
+	<script src="{{twigFolder}}/js/script.js" defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+	
+	<h1>Your categories</h1>
+	<div class="categories" id="cuerpoCategories">
+		<div class="newsinglecategory" id="newsinglecategory">
+				<input type="text" name="newcategoryname" required>
+				<a href="#" class="add-cat" id="add-cat">&#10010;</a>
+		</div>
+		{% for categoria in categories %}
+	    	<div class="singlecategory">
+				<a href="#" class="single-cat">{{categoria.nombre}}</a>
+				<a href="#" class="delete-cat" id="delete-cat" data-id="{{categoria.id}}">X</a>
+			</div>
+	    {% endfor %}
+		
+	</div>
+	
+	<div class="cards">
+		
+		<div class="card-container">
+			<div class="card u-clearfix">
+				<div class="card-body">
+					<span class="card-author subtle">{{user.nombre}}</span>
+					<select name="newCategory" id="newCat">
+					    <option value="0">No category</option>
+					    {% for categoria in categories %}
+					    	<option value="{{ categoria.id }}">{{ categoria.nombre }}</option>
+					    {% endfor %}
+					  </select>
+					<h2 class="card-title">New</h2>
+					<input type="text" id="newTitle" placeholder="New Title" required>
+					<input type="text" id="newHref" placeholder="Link" required>
+					<textarea class="card-description subtle" id="newComment" placeholder="Write a comment"></textarea>
+					<div class="card-read"><a href="#" id="btRegister" data-accion="ajax/addlink">Add</a></div>
+					<span class="card-tag card-circle subtle">C</span>
+				</div>
+				<img src="https://picsum.photos/300/400/?random" alt="" class="card-media" />
+			</div>
+			<div class="card-shadow"></div>
+		</div>
+	
+		<div id="cuerpoLinks">
+			{% for link in links %}
+				<div class="card-container info" data-id="{{link.id}}">
+					<div class="card u-clearfix">
+						<div class="card-body">
+							<span class="card-number card-circle subtle"><a href="#" class="borrar">X</a></span><br>
+							<select name="newCategory" id="newCat">
+							    <option value="0">No category</option>
+							    {% for categoria in categories %}
+							    	<option value="{{ categoria.id }}" 
+							    	{% if categoria.id == link.categoria.id %}
+							    		selected
+							    	{% endif %}
+							    	>{{ categoria.nombre }}</option>
+							    {% endfor %}
+							  </select>
+							<h2 class="card-title editable">{{link.title}}</h2>
+							<span class="card-description subtle editable">{{link.comentario}}</span>
+							<div class="card-read"><a href="{{link.href}}" target="_onblank">Visit</a></div>
+							<span class="card-tag card-circle subtle"><a href="#" class="delete-link" data-id="{{link.id}}">X</a></span>
+						</div>
+						<img src="https://loremflickr.com/300/400/tumblr?random={{loop.index}}" alt="" class="card-media" />
+					</div>
+					<div class="card-shadow"></div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+	
+	<div id="cuerpoPaginas" style="width: 40%; margin: 0 auto; align-text: center;">
+		{% if maxPages > 1 %}
+		<ul class="pagination pagination-sm">
+		    {# `«` arrow  #}
+		    <li {{ thisPage == 1 ? 'class="disabled"' }}>
+		        <a href="#" data-page="1">«</a>
+		    </li >
+		
+		    {# Render each page number #}
+		    {% for i in 1..maxPages %}
+		    <li {{ thisPage == i ? 'class="active"' }}>
+		    <a href="#" data-page="{{i}}">{{ i }}</a>
+		    </li>
+		    {% endfor %}
+		
+		    {# `»` arrow #}
+		    <li {{ thisPage == maxPages ? 'class="disabled"' }}>
+		        <a href="#" data-page="{{maxPages}}">»</a>
+		    </li>
+		    
+		</ul>
+		{% endif %}
+	</div>
+	
+	
+</body>
+
+</html>

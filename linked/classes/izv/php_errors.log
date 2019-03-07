@@ -1,0 +1,2 @@
+[17-Feb-2019 16:29:40 UTC] PHP Fatal error:  Trait 'izv\common\Common' not found in /home/ubuntu/workspace/linked/classes/izv/cli/src/Link.php on line 11
+[18-Feb-2019 16:36:33 UTC] PHP Fatal error:  Cannot declare class izv\data\Link, because the name is already in use in /home/ubuntu/workspace/linked/classes/izv/cli/src/izv/data/Link.php on line 9
