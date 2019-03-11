@@ -1,0 +1,49 @@
+    _  _   _____  ______ _____  _____  _____       _______       ____           _____ ______ 
+  _| || |_|  __ \|  ____|  __ \|  __ \|  __ \   /\|__   __|/\   |  _ \   /\    / ____|  ____|
+ |_  __  _| |  | | |__  | |__) | |  | | |  | | /  \  | |  /  \  | |_) | /  \  | (___ | |__   
+  _| || |_| |  | |  __| |  ___/| |  | | |  | |/ /\ \ | | / /\ \ |  _ < / /\ \  \___ \|  __|  
+ |_  __  _| |__| | |____| |    | |__| | |__| / ____ \| |/ ____ \| |_) / ____ \ _by__)| |acc_ 
+   |_||_| |_____/|______|_|    |_____/|_____/_/    \_\_/_/    \_\____/_/    \_\_____/|______|
+                                                                                             
+[X]  /user (INPUT DE FECHAS (DONE)) + Poner labels?
+[X]Footer WP
+[X]LOGO WORDPRESS REPLACE OK
+[X] WP Traducir (DONE) (+boton de cambio)
+[X]/store (stock + no items) DONE
+[X] Checkout (areglá script)
+[X] Checkout twig
+[X]Hacer logout URGENTE
+[X]Wordpress fotos y textos
+[X]Link a registrar. Fecha en /user // what do u mean by Fecha en /user
+[X]Titulos de pagina.
+[X]Pagina extra de custom post types
+[X]Bug stock de store
+[X] docheckout esencial
+[X]Bug refresco carrito en /store
+[X]Cart from /product
+[X]Verificaciones, bugs y demas.
+[X]Paginaciones de WP y store.
+
+[DEP]docheckout FIX BUG USUARIO + vejez de la tarjeta + Restar tallas.
+[DEP]CARRITO TALLA? -- DEP (No distinguir entre ID)
+
+
+[]/product (relacionados) -- 
+[] TOTAL DEL CARRITO
+[X]Frontpage
+
+
+[X]Admin panel
+    [X] /viewproducts
+    [X] /viewusers
+    [DEP] /vieworders
+
+Opcionales===================================
+
+    [?]Estilos extra xd
+    [X] COUPONS DEP CONFIRMAR OK
+    [DEP] Verificar tarjetas?
+
+CONFIRMAR====================================
+    Add \DateTime en entidades;
+    Repasar codigo

@@ -1,0 +1,4 @@
+[06-Mar-2019 19:20:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function bloginfo() in /home/ubuntu/workspace/blog/wp-content/themes/H-Code/changelang.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/blog/wp-content/themes/H-Code/changelang.php on line 7

@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cardozatagcloud-pt_BR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-02 15:56-0300\n"
+"PO-Revision-Date: 2012-09-02 16:06-0300\n"
+"Last-Translator: Valdir <valdirtrombini@hotmail.com>\n"
+"Language-Team: Valdir Trombini <valdirtrombini@hotmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;_e;__;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../cardoza_3D_tag_cloud.php:40
+#: ../cardoza_3D_tag_cloud.php:178
+msgid "3D Tag Cloud"
+msgstr "3D Nuvem de Tag"
+
+#: ../cardoza_3D_tag_cloud.php:73
+msgid "Options saved."
+msgstr "Opções salvas."
+
+#: ../cardoza_3D_tag_cloud.php:79
+msgid "3D Tag Cloud Options"
+msgstr "Opções do 3D Nuvem de Tag"
+
+#: ../cardoza_3D_tag_cloud.php:82
+msgid "General Settings"
+msgstr "Configurações Gerais"
+
+#: ../cardoza_3D_tag_cloud.php:84
+msgid "Widget Title"
+msgstr "Título do widget"
+
+#: ../cardoza_3D_tag_cloud.php:86
+msgid "Number of tags"
+msgstr "Número de tags"
+
+#: ../cardoza_3D_tag_cloud.php:88
+msgid "Width"
+msgstr "Largura"
+
+#: ../cardoza_3D_tag_cloud.php:90
+msgid "Height"
+msgstr "Altura"
+
+#: ../cardoza_3D_tag_cloud.php:93
+msgid "Color Settings (Hex value)"
+msgstr "Configurações de Cores (valor Hexadecimal)"
+
+#: ../cardoza_3D_tag_cloud.php:95
+msgid "Background Color"
+msgstr "Cor de Fundo"
+
+#: ../cardoza_3D_tag_cloud.php:97
+msgid "Text Color"
+msgstr "Cor do Texto"
+
+#: ../cardoza_3D_tag_cloud.php:100
+msgid "Font Settings"
+msgstr "Configurações de Fonte"
+
+#: ../cardoza_3D_tag_cloud.php:102
+msgid "Select the font"
+msgstr "Selecionar a fonte"
+
+#: ../cardoza_3D_tag_cloud.php:112
+msgid "Maximum font size"
+msgstr "Tamanho máximo da fonte"
+
+#: ../cardoza_3D_tag_cloud.php:114
+msgid "Minimum font size"
+msgstr "Tamanho mínimo da fonte"
+

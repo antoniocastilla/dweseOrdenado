@@ -1,0 +1,77 @@
+  
+    
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->zapatos = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set nombre
+     *
+     * @param string $nombre
+     *
+     * @return Categoria
+     */
+    public function setNombre($nombre)
+    {
+        $this->nombre = $nombre;
+
+        return $this;
+    }
+
+    /**
+     * Get nombre
+     *
+     * @return string
+     */
+    public function getNombre()
+    {
+        return $this->nombre;
+    }
+
+    /**
+     * Add zapato
+     *
+     * @param \Zapato $zapato
+     *
+     * @return Categoria
+     */
+    public function addZapato(\Zapato $zapato)
+    {
+        $this->zapatos[] = $zapato;
+
+        return $this;
+    }
+
+    /**
+     * Remove zapato
+     *
+     * @param \Zapato $zapato
+     */
+    public function removeZapato(\Zapato $zapato)
+    {
+        $this->zapatos->removeElement($zapato);
+    }
+
+    /**
+     * Get zapatos
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getZapatos()
+    {
+        return $this->zapatos;
+    }

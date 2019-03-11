@@ -1,0 +1,62 @@
+[02-Mar-2019 20:21:19 UTC] PHP Fatal error:  Cannot redeclare save_metabox() (previously declared in /home/ubuntu/workspace/blog/wp-content/plugins/shoes.php:108) in /home/ubuntu/workspace/blog/wp-content/plugins/apps.php on line 129
+[02-Mar-2019 20:21:20 UTC] PHP Fatal error:  Cannot redeclare save_metabox() (previously declared in /home/ubuntu/workspace/blog/wp-content/plugins/shoes.php:108) in /home/ubuntu/workspace/blog/wp-content/plugins/apps.php on line 129
+[02-Mar-2019 20:21:20 UTC] PHP Fatal error:  Cannot redeclare save_metabox() (previously declared in /home/ubuntu/workspace/blog/wp-content/plugins/shoes.php:108) in /home/ubuntu/workspace/blog/wp-content/plugins/apps.php on line 129
+[02-Mar-2019 20:21:26 UTC] PHP Fatal error:  Cannot redeclare save_metabox() (previously declared in /home/ubuntu/workspace/blog/wp-content/plugins/shoes.php:108) in /home/ubuntu/workspace/blog/wp-content/plugins/apps.php on line 129
+[02-Mar-2019 20:21:26 UTC] PHP Fatal error:  Cannot redeclare save_metabox() (previously declared in /home/ubuntu/workspace/blog/wp-content/plugins/shoes.php:108) in /home/ubuntu/workspace/blog/wp-content/plugins/apps.php on line 129
+[02-Mar-2019 20:21:26 UTC] PHP Fatal error:  Cannot redeclare save_metabox() (previously declared in /home/ubuntu/workspace/blog/wp-content/plugins/shoes.php:108) in /home/ubuntu/workspace/blog/wp-content/plugins/apps.php on line 129
+[06-Mar-2019 19:32:26 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/blog/wp-content/plugins/languageswitch.php on line 12
+[06-Mar-2019 19:39:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function userdata() on null in /home/ubuntu/workspace/blog/wp-content/plugins/languageswitch.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(286): wpsx_redefine_locale('en_GB')
+#1 /home/ubuntu/workspace/blog/wp-includes/plugin.php(208): WP_Hook->apply_filters('en_GB', Array)
+#2 /home/ubuntu/workspace/blog/wp-includes/l10n.php(75): apply_filters('locale', 'en_GB')
+#3 /home/ubuntu/workspace/blog/wp-includes/l10n.php(131): get_locale()
+#4 /home/ubuntu/workspace/blog/wp-includes/l10n.php(785): determine_locale()
+#5 /home/ubuntu/workspace/blog/wp-content/plugins/cardoza-3d-tag-cloud/cardoza_3D_tag_cloud.php(163): load_plugin_textdomain('cardozatagcloud', false, 'cardoza-3d-tag-...')
+#6 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(286): cardoza_3d_tagcloud_init('')
+#7 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /home/ubuntu/workspace/blog/wp-includes/plugin.php(465): WP_Hook->do_ in /home/ubuntu/workspace/blog/wp-content/plugins/languageswitch.php on line 19
+[06-Mar-2019 19:40:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function userdata() on null in /home/ubuntu/workspace/blog/wp-content/plugins/languageswitch.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(286): wpsx_redefine_locale('en_GB')
+#1 /home/ubuntu/workspace/blog/wp-includes/plugin.php(208): WP_Hook->apply_filters('en_GB', Array)
+#2 /home/ubuntu/workspace/blog/wp-includes/l10n.php(75): apply_filters('locale', 'en_GB')
+#3 /home/ubuntu/workspace/blog/wp-includes/l10n.php(131): get_locale()
+#4 /home/ubuntu/workspace/blog/wp-includes/l10n.php(785): determine_locale()
+#5 /home/ubuntu/workspace/blog/wp-content/plugins/cardoza-3d-tag-cloud/cardoza_3D_tag_cloud.php(163): load_plugin_textdomain('cardozatagcloud', false, 'cardoza-3d-tag-...')
+#6 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(286): cardoza_3d_tagcloud_init('')
+#7 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /home/ubuntu/workspace/blog/wp-includes/plugin.php(465): WP_Hook->do_ in /home/ubuntu/workspace/blog/wp-content/plugins/languageswitch.php on line 19
+[06-Mar-2019 19:41:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function userdata() on null in /home/ubuntu/workspace/blog/wp-content/plugins/languageswitch.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(286): wpsx_redefine_locale('en_GB')
+#1 /home/ubuntu/workspace/blog/wp-includes/plugin.php(208): WP_Hook->apply_filters('en_GB', Array)
+#2 /home/ubuntu/workspace/blog/wp-includes/l10n.php(75): apply_filters('locale', 'en_GB')
+#3 /home/ubuntu/workspace/blog/wp-includes/l10n.php(131): get_locale()
+#4 /home/ubuntu/workspace/blog/wp-includes/l10n.php(785): determine_locale()
+#5 /home/ubuntu/workspace/blog/wp-content/plugins/cardoza-3d-tag-cloud/cardoza_3D_tag_cloud.php(163): load_plugin_textdomain('cardozatagcloud', false, 'cardoza-3d-tag-...')
+#6 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(286): cardoza_3d_tagcloud_init('')
+#7 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /home/ubuntu/workspace/blog/wp-includes/plugin.php(465): WP_Hook->do_ in /home/ubuntu/workspace/blog/wp-content/plugins/languageswitch.php on line 19
+[06-Mar-2019 19:42:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function userdata() on null in /home/ubuntu/workspace/blog/wp-content/plugins/languageswitch.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(286): wpsx_redefine_locale('en_GB')
+#1 /home/ubuntu/workspace/blog/wp-includes/plugin.php(208): WP_Hook->apply_filters('en_GB', Array)
+#2 /home/ubuntu/workspace/blog/wp-includes/l10n.php(75): apply_filters('locale', 'en_GB')
+#3 /home/ubuntu/workspace/blog/wp-includes/l10n.php(131): get_locale()
+#4 /home/ubuntu/workspace/blog/wp-includes/l10n.php(785): determine_locale()
+#5 /home/ubuntu/workspace/blog/wp-content/plugins/cardoza-3d-tag-cloud/cardoza_3D_tag_cloud.php(163): load_plugin_textdomain('cardozatagcloud', false, 'cardoza-3d-tag-...')
+#6 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(286): cardoza_3d_tagcloud_init('')
+#7 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /home/ubuntu/workspace/blog/wp-includes/plugin.php(465): WP_Hook->do_ in /home/ubuntu/workspace/blog/wp-content/plugins/languageswitch.php on line 19
+[06-Mar-2019 19:42:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function userdata() on null in /home/ubuntu/workspace/blog/wp-content/plugins/languageswitch.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(286): wpsx_redefine_locale('en_GB')
+#1 /home/ubuntu/workspace/blog/wp-includes/plugin.php(208): WP_Hook->apply_filters('en_GB', Array)
+#2 /home/ubuntu/workspace/blog/wp-includes/l10n.php(75): apply_filters('locale', 'en_GB')
+#3 /home/ubuntu/workspace/blog/wp-includes/l10n.php(131): get_locale()
+#4 /home/ubuntu/workspace/blog/wp-includes/l10n.php(785): determine_locale()
+#5 /home/ubuntu/workspace/blog/wp-content/plugins/cardoza-3d-tag-cloud/cardoza_3D_tag_cloud.php(163): load_plugin_textdomain('cardozatagcloud', false, 'cardoza-3d-tag-...')
+#6 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(286): cardoza_3d_tagcloud_init('')
+#7 /home/ubuntu/workspace/blog/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /home/ubuntu/workspace/blog/wp-includes/plugin.php(465): WP_Hook->do_ in /home/ubuntu/workspace/blog/wp-content/plugins/languageswitch.php on line 19

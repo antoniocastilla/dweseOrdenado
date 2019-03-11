@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^$ c9.php [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ c9.php?parametros=$1 [QSA]

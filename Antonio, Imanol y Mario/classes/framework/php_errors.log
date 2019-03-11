@@ -1,0 +1,5 @@
+[25-Feb-2019 09:30:29 UTC] PHP Fatal error:  Cannot declare class framework\dbobjects\Detalle, because the name is already in use in /home/ubuntu/workspace/classes/framework/cli/src/Detalle.php on line 6
+[28-Feb-2019 22:22:47 UTC] PHP Fatal error:  Cannot declare class framework\dbobjects\Detalle, because the name is already in use in /home/ubuntu/workspace/classes/framework/cli/src/Detalle.php on line 6
+[28-Feb-2019 22:24:18 UTC] PHP Fatal error:  Cannot redeclare framework\dbobjects\Zapato::$fotos in /home/ubuntu/workspace/classes/framework/cli/src/Zapato.php on line 40
+[28-Feb-2019 22:34:50 UTC] PHP Fatal error:  Cannot redeclare framework\dbobjects\Zapato::$fotos in /home/ubuntu/workspace/classes/framework/cli/src/Zapato.php on line 40
+[02-Mar-2019 16:16:21 UTC] PHP Fatal error:  Cannot redeclare framework\dbobjects\Zapato::$destinatario in /home/ubuntu/workspace/classes/framework/cli/src/framework/dbobjects/Zapato.php on line 85
